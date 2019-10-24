@@ -1,3 +1,5 @@
+! i'm making mods
+
 #if ( (defined(wrfmodel) ) && ( RWORDSIZE == 4 ) ) || ( ( defined(mpas) ) && defined(SINGLE_PRECISION) )
 #  define VREC vsrec
 #  define VSQRT vssqrt
