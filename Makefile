@@ -526,6 +526,7 @@ em_real : wrf
 	  ( cd test/em_esmf_exp ; /bin/rm -f wrf_SST_ESMF.exe ; ln -s ../../main/wrf_SST_ESMF.exe . ) ; \
 	  ( cd test/em_esmf_exp ; /bin/rm -f real.exe ; ln -s ../../main/real.exe . ) ; \
 	  ( cd test/em_esmf_exp ; /bin/rm -f README.namelist ; ln -s ../../run/README.namelist . ) ; \
+	  ( cd test/em_esmf_exp ; /bin/rm -f README.physics_files ; ln -s ../../run/README.physics_files . ) ; \
 	  ( cd test/em_esmf_exp ; /bin/rm -f ETAMPNEW_DATA.expanded_rain ETAMPNEW_DATA RRTM_DATA RRTMG_LW_DATA RRTMG_SW_DATA ; \
                ln -sf ../../run/ETAMPNEW_DATA . ;                      \
                ln -sf ../../run/ETAMPNEW_DATA.expanded_rain . ;        \
